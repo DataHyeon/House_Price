@@ -1,0 +1,15 @@
+LotFrontage -> 0
+MasVnrType -> None
+MasVnrArea -> 0
+BsmtQual -> NA
+BsmtCond -> NA
+BsmtExposure -> NA
+BsmtFinType1 -> NA
+BsmtFinType2 -> NA
+Electrical -> Delete
+FireplaceQu -> NA
+GarageType -> NA
+GarageYrBlt -> 0
+GarageFinish -> NA
+GarageQual -> NA
+GarageCond -> NA
