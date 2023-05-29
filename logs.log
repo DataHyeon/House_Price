@@ -5484,3 +5484,51 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-05-29 18:41:35,381:INFO:Plot type: parameter
 2023-05-29 18:41:35,388:INFO:Visual Rendered Successfully
 2023-05-29 18:41:35,534:INFO:plot_model() successfully completed......................................
+2023-05-29 18:46:11,475:INFO:Initializing save_model()
+2023-05-29 18:46:11,476:INFO:save_model(model=<catboost.core.CatBoostRegressor object at 0x0000021EE30C0550>, model_name=./st_basic_model, prep_pipe_=Pipeline(memory=FastMemory(location=C:\Users\reot1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'YearBuilt', 'YearRemodAdd',
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))]), verbose=True, use_case=MLUsecase.REGRESSION, kwargs={})
+2023-05-29 18:46:11,476:INFO:Adding model into prep_pipe
+2023-05-29 18:46:11,491:INFO:./st_basic_model.pkl saved in current working directory
+2023-05-29 18:46:11,499:INFO:Pipeline(memory=FastMemory(location=C:\Users\reot1\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'Year...
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 <catboost.core.CatBoostRegressor object at 0x0000021EE30C0550>)])
+2023-05-29 18:46:11,500:INFO:save_model() successfully completed......................................
