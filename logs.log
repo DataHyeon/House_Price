@@ -5466,3 +5466,21 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-05-29 17:13:52,992:INFO:Preloading libraries
 2023-05-29 17:13:52,996:INFO:Set up data.
 2023-05-29 17:13:53,027:INFO:Set up index.
+2023-05-29 18:41:30,888:INFO:Initializing evaluate_model()
+2023-05-29 18:41:30,888:INFO:evaluate_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000021EDF006D00>, estimator=<catboost.core.CatBoostRegressor object at 0x0000021EE30C0550>, fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None, use_train_data=False)
+2023-05-29 18:41:30,905:INFO:Initializing plot_model()
+2023-05-29 18:41:30,905:INFO:plot_model(plot=pipeline, fold=KFold(n_splits=5, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=<catboost.core.CatBoostRegressor object at 0x0000021EE30C0550>, feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x0000021EDF006D00>, system=True)
+2023-05-29 18:41:30,906:INFO:Checking exceptions
+2023-05-29 18:41:30,909:INFO:Preloading libraries
+2023-05-29 18:41:30,911:INFO:Copying training dataset
+2023-05-29 18:41:30,911:INFO:Plot type: pipeline
+2023-05-29 18:41:31,122:INFO:Visual Rendered Successfully
+2023-05-29 18:41:31,264:INFO:plot_model() successfully completed......................................
+2023-05-29 18:41:35,375:INFO:Initializing plot_model()
+2023-05-29 18:41:35,375:INFO:plot_model(plot=parameter, fold=KFold(n_splits=5, random_state=None, shuffle=False), use_train_data=False, verbose=False, display=None, display_format=None, estimator=<catboost.core.CatBoostRegressor object at 0x0000021EE30C0550>, feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x0000021EDF006D00>, system=True)
+2023-05-29 18:41:35,375:INFO:Checking exceptions
+2023-05-29 18:41:35,379:INFO:Preloading libraries
+2023-05-29 18:41:35,381:INFO:Copying training dataset
+2023-05-29 18:41:35,381:INFO:Plot type: parameter
+2023-05-29 18:41:35,388:INFO:Visual Rendered Successfully
+2023-05-29 18:41:35,534:INFO:plot_model() successfully completed......................................
